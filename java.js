@@ -83,8 +83,19 @@
 
 // }
 
-const saludarVisitanteWeb = (nombreUsuario) => {
-  nombreUsuario===undefined ? alert(`¡Hola, anónimo!`): alert( `¡Hola, ${nombreUsuario}!`)
+// const saludarVisitanteWeb = (nombreUsuario) => {
+//   nombreUsuario===undefined ? alert(`¡Hola, anónimo!`): alert( `¡Hola, ${nombreUsuario}!`)
 
-}
-console.log( saludarVisitanteWeb() )
+// }
+// console.log( saludarVisitanteWeb() )
+
+
+//ARREGLOOOOOOOOOOOOOS
+let arreglos =["hola","chau","kk",["holaaaa","chauuuu"]]
+//agregar nuevos elementos a un arreglo, 
+//una forma es con push, otra es en la ultima posicion, o con el length
+//arreglos[arreglos.length]="algo"
+//arreglos.push("carlos")
+//
+//
+console.log(arreglos[3][1])
