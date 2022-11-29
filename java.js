@@ -90,54 +90,54 @@
 // console.log( saludarVisitanteWeb() )
 
 
-//ARREGLOOOOOOOOOOOOOS
-let arreglos =["hola","chau","kk",["holaaaa","chauuuu"],"hola"]
-//agregar nuevos elementos a un arreglo, 
-//una forma es con push, otra es en la ultima posicion, o con el length
-//arreglos[arreglos.length]="algo"
-//arreglos.push("carlos")
-//
-//
-console.log(arreglos[3][1])
-//esta es una forma que encontre de agreagr elementos en cualquier lugr del arreglo
-//el cero indica "no borres ningun elemento"
-arreglos.splice(2, 0, 'wednesday');
-console.log(arreglos)
+// //ARREGLOOOOOOOOOOOOOS
+// let arreglos =["hola","chau","kk",["holaaaa","chauuuu"],"hola"]
+// //agregar nuevos elementos a un arreglo, 
+// //una forma es con push, otra es en la ultima posicion, o con el length
+// //arreglos[arreglos.length]="algo"
+// //arreglos.push("carlos")
+// //
+// //
+// console.log(arreglos[3][1])
+// //esta es una forma que encontre de agreagr elementos en cualquier lugr del arreglo
+// //el cero indica "no borres ningun elemento"
+// arreglos.splice(2, 0, 'wednesday');
+// console.log(arreglos)
 
-//metodos shift(ELIMINA) y unshift(AGREGA) agregan y elmininan elementos al inicio del arreglo
-arreglos.unshift("casa")
-console.log(arreglos)
+// //metodos shift(ELIMINA) y unshift(AGREGA) agregan y elmininan elementos al inicio del arreglo
+// arreglos.unshift("casa")
+// console.log(arreglos)
 
-//esto devuelve  el indicie de un elemento
-console.log("la posicion del arreglo kk es "+ arreglos.indexOf("kk"))
+// //esto devuelve  el indicie de un elemento
+// console.log("la posicion del arreglo kk es "+ arreglos.indexOf("kk"))
 
-//slice se usa para clonar un arreglo y no tener que trabajar con el original se puede usar .slice(), 
-//.slice(posicion de arranque), .slice(inicio, fin) de donde se quiere clonar
+// //slice se usa para clonar un arreglo y no tener que trabajar con el original se puede usar .slice(), 
+// //.slice(posicion de arranque), .slice(inicio, fin) de donde se quiere clonar
 
-let todo=arreglos.slice()
-let desde=arreglos.slice(2)
-let desdeHasta=arreglos.slice(0,3)
+// let todo=arreglos.slice()
+// let desde=arreglos.slice(2)
+// let desdeHasta=arreglos.slice(0,3)
 
-console.log(todo+"----"+desde+"----"+desdeHasta)
+// console.log(todo+"----"+desde+"----"+desdeHasta)
 
-//el splice borra y retorna un arreglo con los elementos borrados(recibe por ahora dos parametros el primero
-//es de donde empieza a borrar y el segundo cuantos borra)
+// //el splice borra y retorna un arreglo con los elementos borrados(recibe por ahora dos parametros el primero
+// //es de donde empieza a borrar y el segundo cuantos borra)
 
-//join y split, el join convierte un arreglo en cadena de caracteres
-let jooin=arreglos.join(",")
-console.log(jooin)
-// el split convierte una cadena en arreglo
-let spliit=jooin.split(",")
-console.log(spliit)
+// //join y split, el join convierte un arreglo en cadena de caracteres
+// let jooin=arreglos.join(",")
+// console.log(jooin)
+// // el split convierte una cadena en arreglo
+// let spliit=jooin.split(",")
+// console.log(spliit)
 
-//filter filtra- y retorna un arreglo de acuerdo a una condicion
-let fiilter=arreglos.filter(nota => nota == "hola")
-console.log(fiilter)
+// //filter filtra- y retorna un arreglo de acuerdo a una condicion
+// let fiilter=arreglos.filter(nota => nota == "hola")
+// console.log(fiilter)
 
-//el loop for se usa generalmente para recorrer los arreglos, for(inicio desde, hasta condicion, paso)
+// //el loop for se usa generalmente para recorrer los arreglos, for(inicio desde, hasta condicion, paso)
 
-//el for each recorrel el arreglo completo recibe una funciono que se va a aplicar sobre cada elemento
+// //el for each recorrel el arreglo completo recibe una funciono que se va a aplicar sobre cada elemento
 
-arreglos.forEach(function(arreglo){
-  console.log("un elemento "+ arreglo)
-})
+// arreglos.forEach(function(arreglo){
+//   console.log("un elemento "+ arreglo)
+// })
