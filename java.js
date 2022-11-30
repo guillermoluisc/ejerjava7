@@ -141,3 +141,4 @@
 // arreglos.forEach(function(arreglo){
 //   console.log("un elemento "+ arreglo)
 // })
+//perfecto clonado
